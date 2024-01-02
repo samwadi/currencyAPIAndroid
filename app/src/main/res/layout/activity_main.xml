@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="371dp"
+            android:layout_height="44dp"
+            android:text="@string/welcomeSignIn" />
+
+        <EditText
+            android:id="@+id/editTextLoginUsername"
+            android:layout_width="376dp"
+            android:layout_height="69dp"
+            android:hint="@string/username" />
+
+        <EditText
+            android:id="@+id/editTextLoginPassword"
+            android:layout_width="380dp"
+            android:layout_height="63dp"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+        <CheckBox
+            android:id="@+id/checkBoxRememberMe"
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:text="@string/remember_me" />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="376dp"
+            android:layout_height="66dp"
+            android:text="@string/login" />
+
+        <Button
+            android:id="@+id/buttonGoToRegister"
+            android:layout_width="381dp"
+            android:layout_height="65dp"
+            android:text="@string/go_to_register" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
